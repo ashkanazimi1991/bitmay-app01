@@ -64,12 +64,12 @@ export default function Home() {
 
       <div className="flex flex-row  sm:flex-col-reverse  ">
         {/* LEFT COL */}
-        <div className="bg-gray-800  sm:w-screen justify-start min-w-300  sm:pl-[10%] pl-[4%]">
+        <div className="bg-gray-800  sm:w-screen justify-start min-w-300  sm:pl-0 pl-[4%]">
           {/* ---------------------------------------------------------------------- */}
           {/* ------------------------------- SKILLS ------------------------------- */}
           {/* ---------------------------------------------------------------------- */}
 
-          <h1 className=" pr-6 pt-5 font-bold text-white text-left tracking-widest">
+          <h1 className=" pl-6 pt-6 font-bold text-white text-left tracking-widest">
             SKILLS
           </h1>
           <div className="border-b-4  reletive r-0 my-2"></div>
@@ -79,17 +79,17 @@ export default function Home() {
           <div className="flex flex-col  w-[100%] pb-20   ">
             <div className="flex flex-row py-2  justify-between items-center">
               <Link href="" target="_blank" aria-label="">
-                <h1 className="text-white pr-2 sm:pl-10 ">Programming </h1>
+                <h1 className="text-white px-4 w-28">Programming </h1>
               </Link>
               <div className="border-l-2 pr-10">
-                <h2 className="text-white text-left pl-4 w-40">
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">
                   "Java Script"
                 </h2>
-                <h2 className="text-white text-left pl-4 w-40">
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">
                   "TailwindCSS"
                 </h2>
-                <h2 className="text-white text-left pl-4 w-40">"Html/CSS"</h2>
-                <h2 className="text-white text-left pl-4 w-40">"Python"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Html/CSS"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Python"</h2>
               </div>
             </div>
 
@@ -97,15 +97,15 @@ export default function Home() {
 
             <div className="flex flex-row py-2  justify-between items-center">
               <Link href="" target="_blank" aria-label="">
-                <h1 className="text-white  sm:pl-10 w-30">FrameWork</h1>
+                <h1 className="text-white px-4 w-28">FrameWork</h1>
               </Link>
               <div className="border-l-2 pr-10">
-                <h2 className="text-white text-left pl-4 w-40">"React"</h2>
-                <h2 className="text-white text-left pl-4 w-40">
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"React"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">
                   "React Native"
                 </h2>
-                <h2 className="text-white text-left pl-4 w-40">"Expo"</h2>
-                <h2 className="text-white text-left pl-4 w-40">"Next.js"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Expo"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Next.js"</h2>
               </div>
             </div>
 
@@ -117,12 +117,12 @@ export default function Home() {
                               <FaRegDotCircle className=' w-10 text-sm  text-[#fff] '/> 
                             </Link>   */}
               <Link href="" target="_blank">
-                <h1 className="text-white sm:pl-10 w-30">Other Skill</h1>
+                <h1 className="text-white px-4 w-28">Other Skill</h1>
               </Link>
               <div className="border-l-2 pr-10">
-                <h2 className="text-white text-left pl-4 w-40">"Ui, Ux "</h2>
-                <h2 className="text-white text-left pl-4 w-40">"Figma"</h2>
-                <h2 className="text-white text-left pl-4 w-40">"Git"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Ui, Ux "</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Figma"</h2>
+                <h2 className="text-white text-left px-2 w-40 sm:w-32">"Git"</h2>
               </div>
             </div>
 
@@ -130,7 +130,7 @@ export default function Home() {
             {/* ------------------------------ LANGUAGE ------------------------------ */}
             {/* ---------------------------------------------------------------------- */}
 
-            <h1 className=" pr-6 pt-5 font-bold text-white text-left tracking-widest">
+            <h1 className="pl-6 pt-16 font-bold text-white text-left tracking-widest">
               LANGUAGE
             </h1>
             <div className="border-b-4  reletive r-0 my-2"></div>
@@ -142,9 +142,7 @@ export default function Home() {
             <div className="flex flex-row py-2  justify-between items-center">
               <Link href="" target="_blank">
                 <h1
-                  className="text-white s
-                m:pl-10 w-30"
-                >
+                  className="text-white sm:pl-10 w-30">
                   English (Advance)
                 </h1>
               </Link>
@@ -154,14 +152,14 @@ export default function Home() {
             {/* ------------------------------ CONTACTS ------------------------------ */}
             {/* ---------------------------------------------------------------------- */}
 
-            <h1 className=" pr-6 pt-5 font-bold text-white text-left tracking-widest ">
+            <h1 className="  pl-6 pt-6 font-bold text-white text-left tracking-widest ">
               CONTACTS
             </h1>
             <div className="border-b-4  reletive r-0 my-2"></div>
             <div className="flex flex-col   ">
               {/* PHONE */}
 
-              <div className="flex flex-row py-2">
+              <div className="flex flex-row py-2 sm:pl-8">
                 <Link href="tel:+989353138518">
                   <FiPhone className=" w-10 text-2xl text-[#fff] " />
                 </Link>
@@ -172,7 +170,7 @@ export default function Home() {
 
               {/* OFFICE */}
 
-              <div className="flex flex-row  py-2">
+              <div className="flex flex-row  py-2 sm:pl-8">
                 <Link href="tel:+982188862141">
                   <HiOutlineLibrary className=" w-10 text-2xl text-[#fff] " />
                 </Link>
@@ -183,7 +181,7 @@ export default function Home() {
 
               {/* INSTAGRAM */}
 
-              <div className="flex flex-row  py-2">
+              <div className="flex flex-row  py-2 sm:pl-8">
                 <Link
                   href="https://www.instagram.com/bitmay"
                   target="_blank"
@@ -202,7 +200,7 @@ export default function Home() {
 
               {/* TELEGRAM */}
 
-              <div className="flex flex-row  py-2">
+              <div className="flex flex-row  py-2 sm:pl-8">
                 <Link
                   href="https://t.me/bitmay"
                   target="_blank"
@@ -221,7 +219,7 @@ export default function Home() {
 
               {/* MAIL */}
 
-              <div className="flex flex-row  py-2">
+              <div className="flex flex-row sm:pl-8  py-2">
                 <Link
                   href="mailto: bita.maysoori@gmail.com"
                   target="_blank"
@@ -240,7 +238,7 @@ export default function Home() {
 
               {/* LOCATION */}
 
-              <div className="flex flex-row  py-2">
+              <div className="flex flex-row sm:pl-8 py-2">
                 <Link
                   href="https://www.google.com/maps/place/%D8%B3%D9%87%D8%A7+%D9%BE%DB%8C%D9%85%D8%A7%D9%86%E2%80%AD/@35.7076289,51.4280297,15.82z/data=!4m13!1m7!3m6!1s0x3f8e00491ff3dcd9:0xf0b3697c567024bc!2z2KrZh9ix2KfZhtiMINin2LPYqtin2YYg2KrZh9ix2KfZhtiMINin24zYsdin2YY!3b1!8m2!3d35.7218583!4d51.3346954!3m4!1s0x0:0x485784e4ad4d1be2!8m2!3d35.7076662!4d51.4271927?hl=fa"
                   target="_blank"
@@ -305,12 +303,9 @@ export default function Home() {
               </h1>
               <div className="border-l-2 ml-2 mt-4 pr-2">
                 <h2 className="font-bold pl-2">CEO App</h2>
-                <p className="ml-10">
-                  Web app for the ONLINE CEO developer community Support 3D
-                  View, Virtual Reality, professional admin dashboard <br></br>
-                  FrameWorks: React, NextJs, Django <br></br>
-                  programming language: JavaScript, Python, tailwindcss{" "}
-                </p>
+                <p className='ml-10'>Web app for the ONLINE CEO developer community Support 3D View, Virtual Reality, 
+                            professional admin dashboard <br></br>FrameWorks: React, NextJs, Django <br></br>
+                             programming language: JavaScript, Python, tailwindcss  </p>
               </div>
 
               <div className="border-l-2 ml-2 mt-4 pr-2">
@@ -326,52 +321,38 @@ export default function Home() {
 
               <div className="border-l-2 ml-2 mt-4 pr-2">
                 <h2 className="font-bold pl-2">ODA App</h2>
-                <p className="ml-10">
-                  Web app for ODA architect company that Support 3D View,
-                  Virtual Reality, professional admin dashboard <br></br>
-                  FrameWorks: React, NextJs, Django <br></br>
-                  programming language: JavaScript, Python, tailwindcss{" "}
-                </p>
+                <p className='ml-10'>Web app for ODA architect company that Support 3D View, Virtual Reality, 
+                            professional admin dashboard <br></br>FrameWorks: React, NextJs, Django <br></br>
+                             programming language: JavaScript, Python, tailwindcss  </p>
               </div>
 
               <div className="border-l-2 ml-2 mt-4 pr-2">
                 <h2 className="font-bold pl-2">CarNet Platform</h2>
-                <p className="ml-10">
-                  Web app for the ONLINE CEO developer community Support 3D
-                  View, Virtual Reality, professional admin dashboard <br></br>
-                  FrameWorks: React,ReactNative NextJs, Django <br></br>
-                  programming language: JavaScript, Python, tailwindcss{" "}
-                </p>
+                <p className='ml-10'>Web app and native app for the Carnet large scale startup, Support Live map and GPS, Professional check list, 
+                            professional admin dashboard <br></br>FrameWorks: React,ReactNative NextJs, Django <br></br>
+                             programming language: JavaScript, Python, tailwindcss  </p>
               </div>
 
               <div className="border-l-2 ml-2 mt-4 pr-2">
-                <h2 className="font-bold pl-2">MyDr app</h2>
-                <p className="ml-10">
-                  Web app for the ONLINE CEO developer community Support 3D
-                  View, Virtual Reality, professional admin dashboard <br></br>
-                  FrameWorks: React, NextJs, Django <br></br>
-                  programming language: JavaScript, Python, tailwindcss{" "}
-                </p>
+                <h2 className="font-bold pl-2">Pasteur Health Care platform</h2>
+                <p className='ml-10'>Web app and native app, to be terminal between patient and doctor with online visit and patients care requirements with visual diagrams,... &
+                            professional admin app <br></br>FrameWorks: React,ReactNative, NextJs, Django <br></br>
+                             programming language: JavaScript, Python, tailwindcss  </p>
               </div>
 
               <div className="border-l-2 ml-2 mt-4 pr-2">
                 <h2 className="font-bold pl-2">MyPet app</h2>
-                <p className="ml-10">
-                  Web app for the ONLINE CEO developer community Support 3D
-                  View, Virtual Reality, professional admin dashboard <br></br>
-                  FrameWorks: React, NextJs, Django <br></br>
-                  programming language: JavaScript, Python, tailwindcss{" "}
-                </p>
+                <p className='ml-10'>Web app and native app for the pet shops, with online visit, live pet shop and product shop, Health Care checklist and
+                            professional admin dashboard <br></br>FrameWorks: React, ReactNative, NextJs, Django <br></br>
+                             programming language: JavaScript, Python, tailwindcss  </p>
               </div>
 
               <div className="border-l-2 ml-2 mt-4 pr-2">
                 <h2 className="font-bold pl-2">Fast School platforms</h2>
-                <p className="ml-10">
-                  Web app for the ONLINE CEO developer community Support 3D
-                  View, Virtual Reality, professional admin dashboard <br></br>
-                  FrameWorks: React, NextJs, Django <br></br>
-                  programming language: JavaScript, Python, tailwindcss{" "}
-                </p>
+                <p className='ml-10'>Web app and native app for the FastSchool startup, Its educational base supports virtual reality, 
+                            3D view, Online whiteboard, live chat, conference video room, to-do app, auto exam, and practice, copyright watermark 
+                            professional dashboard for admin, students, parents  <br></br>FrameWorks: React, Reactnative, NextJs, Django <br></br>
+                             programming language: JavaScript, Python,C++, tailwindcss  </p>
               </div>
             </div>
           </div>
